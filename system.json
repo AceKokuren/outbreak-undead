@@ -1,0 +1,17 @@
+{
+  "id": "outbreak-undead",
+  "title": "Outbreak Undead",
+  "description": "System implementation for Outbreak: Undead... Zombie Survival RPG",
+  "version": "0.0.1",
+  "authors": [{
+    "name": "AceKokuren",
+    "url": "https://github.com/AceKokuren"
+  }],
+  "compatibility": {
+    "minimum": "11",
+    "maximum": "11",
+    "verified": "11.299"
+  },
+  "manifest": "",
+  "download": ""
+}

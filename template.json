@@ -1,0 +1,12 @@
+{
+  "Actor": {
+    "types": ["characters"],
+    "characters": {
+      "health points": {
+        "min": 0,
+        "value": 5,
+        "max": 5
+      }
+    }
+  }
+}
