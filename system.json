@@ -13,5 +13,6 @@
     "verified": "11.299"
   },
   "manifest": "",
-  "download": ""
+  "download": "",
+  "primaryTokenAttribute": "Health Points"
 }
