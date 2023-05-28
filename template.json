@@ -1,11 +1,33 @@
 {
   "Actor": {
-    "types": ["characters"],
-    "characters": {
-      "health points": {
-        "min": 0,
-        "value": 5,
-        "max": 5
+    "types": [
+      "Characters"
+    ],
+    "templates": {
+      "resources": {
+        "Health Points": {
+          "value": 5,
+          "max": 5
+        }
+      }
+    },
+    "Characters": {
+      "templates": ["resources"],
+      "Strength": {
+        "value": 1,
+        "max": 20
+      },
+      "Perception": {
+        "value": 1,
+        "max": 20
+      },
+      "Endurance": {
+        "value": 1,
+        "max": 20
+      },
+      "Wisdom": {
+        "value": 1,
+        "max": 20
       }
     }
   }
