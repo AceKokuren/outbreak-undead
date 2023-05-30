@@ -47,5 +47,23 @@ export class OutbreakActorSheet extends ActorSheet {
     /** @override */
     activateListeners(html) {
         super.activateListeners(html);
+        html.find('.rollable').click(this._onRoll.bind(this));
+    }
+
+    _onRoll(e) {
+        e.preventDefault();
+        const el = e.currentTarget;
+        const dataset = el.dataset;
+
+        if (dataset.roll) {
+            let label = dataset.label ? `${dataset.label}` : '';
+            let roll = new Roll(dataset.roll, this.actor.getRollData());
+            roll.toMessage({
+                speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+                flavor: label,
+                rollMode: game.settings.get('core', 'rollMode'),
+            });
+            return roll;
+        }
     }
 }

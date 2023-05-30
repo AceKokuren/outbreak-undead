@@ -1,3 +1,9 @@
+.rollable:hover, .rollable:focus {
+    color: #000;
+    text-shadow: 0 0 10px red;
+    cursor: pointer;
+}
+
 .outbreak .sheet-tabs {
     -webkit-box-flex: 0;
     -ms-flex: 0;
@@ -25,4 +31,6 @@
     margin: auto;
 }
 
-
+.outbreak .resource-label {
+    font-weight: bold;
+}
