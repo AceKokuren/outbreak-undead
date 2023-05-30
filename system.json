@@ -3,6 +3,8 @@
   "title": "Outbreak Undead",
   "description": "System implementation for Outbreak: Undead... Zombie Survival RPG",
   "version": "0.0.1",
+  "manifest": "",
+  "download": "",
   "authors": [{
     "name": "AceKokuren",
     "url": "https://github.com/AceKokuren"
@@ -12,7 +14,19 @@
     "maximum": "11",
     "verified": "11.299"
   },
-  "manifest": "",
-  "download": "",
-  "primaryTokenAttribute": "Health Points"
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de.json"
+    }
+  ],
+  "esmodules": ["module/outbreak.js"],
+  "styles": ["styles/*.css"],
+  "primaryTokenAttribute": "hp"
 }
