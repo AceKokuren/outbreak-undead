@@ -14,7 +14,19 @@
     "maximum": "11",
     "verified": "11.299"
   },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de.json"
+    }
+  ],
   "esmodules": ["module/outbreak.js"],
-  "styles": ["styles/outbreak.css"],
-  "primaryTokenAttribute": "Health Points"
+  "styles": ["styles/*.css"],
+  "primaryTokenAttribute": "hp"
 }
