@@ -1,0 +1,22 @@
+.outbreak .sheet-tabs {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+
+.outbreak .flexcol {
+    flex: 0;
+    display: inline-block;
+    justify-content: center;
+}
+
+.outbreak .attribute #attribute-img {
+    max-width: 50px;
+    margin: auto;
+}
+
+.outbreak .attributes {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
