@@ -27,6 +27,16 @@
     }
   ],
   "esmodules": ["module/outbreak.js"],
-  "styles": ["styles/*.css"],
-  "primaryTokenAttribute": "hp"
+  "styles": ["styles/outbreak.css"],
+  "primaryTokenAttribute": "hp",
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "json",
+        "js",
+        "css",
+        "html"
+      ]
+    }
+  }
 }
