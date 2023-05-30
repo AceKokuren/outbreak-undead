@@ -1,4 +1,4 @@
-import {OutbreakActor} from "./document/actor/character.js";
+import {OutbreakActor} from "./document/actor/actor.js";
 import {OUTBREAK} from "./helpers/config.js"
 import {OutbreakActorSheet} from "./sheets/actor/character-sheet.js";
 import {preloadHandlebarsTemplates} from "./helpers/templates.js";
