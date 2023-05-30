@@ -1,0 +1,9 @@
+{
+  "OUTBREAK.AttributeStr": "Strength",
+  "OUTBREAK.AttributePer": "Perception",
+  "OUTBREAK.AttributeEnd": "Endurance",
+  "OUTBREAK.AttributeWill": "Willpower",
+
+  "OUTBREAK.Skills": "Skills",
+  "OUTBREAK.HealthPoints": "Health Points"
+}
