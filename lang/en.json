@@ -4,6 +4,10 @@
   "OUTBREAK.AttributeEnd": "Endurance",
   "OUTBREAK.AttributeWill": "Willpower",
 
+  "OUTBREAK.SurvivalPoints": "Survival Points",
+  "OUTBREAK.GestaltLevel": "Gestalt Level",
+  "OUTBREAK.ConsumptionPoints": "Consumption Points",
+
   "OUTBREAK.Skills": "Skills",
   "OUTBREAK.HealthPoints": "Health Points"
 }
