@@ -4,6 +4,16 @@
     cursor: pointer;
 }
 
+.outbreak .resources {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.outbreak .resources input {
+    width: 50px;
+}
+
 .outbreak .sheet-tabs {
     -webkit-box-flex: 0;
     -ms-flex: 0;
@@ -11,7 +21,7 @@
 }
 
 .outbreak .flexcol {
-    flex: 0;
+    flex: 1;
     display: inline-block;
     justify-content: center;
 }
