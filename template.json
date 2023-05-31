@@ -1,29 +1,29 @@
 {
   "Actor": {
     "types": [
-      "Character"
+      "character"
     ],
     "templates": {
       "resources": {
         "hp": {
-          "value": 5,
-          "max": 5
+          "value": "5",
+          "max": "5"
         },
         "sp": {
           "value": 0,
-          "max": null
+          "max": 100
         },
         "gl": {
           "value": 0,
-          "max": null
+          "max": 100
         },
         "cp": {
           "value": 0,
-          "max": null
+          "max": 100
         }
       }
     },
-    "Character": {
+    "character": {
       "templates": [
         "resources"
       ],
