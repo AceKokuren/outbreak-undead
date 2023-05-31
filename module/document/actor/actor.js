@@ -8,6 +8,7 @@ export class OutbreakActor extends Actor {
     /** @override */
     prepareBaseData() {
     }
+
     prepareDerivedData() {
         const actorData = this;
         const systemData = actorData.system;
@@ -25,11 +26,13 @@ export class OutbreakActor extends Actor {
         if (actorData.type !== 'character') return;
         const systemData = actorData.system;
     }
+
     getRollData() {
         const data = super.getRollData();
         this._getCharacterRollData(data);
         return data;
     }
+
     _getCharacterRollData(data) {
         if (this.type !== 'character') return;
 
