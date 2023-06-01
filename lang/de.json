@@ -1,14 +1,23 @@
 {
   "OUTBREAK.AttributeStr": "Stärke",
   "OUTBREAK.AttributePer": "Wahrnehmung",
-  "OUTBREAK.AttributeEnd": "Ausdauer",
+  "OUTBREAK.AttributeEmp": "Ausdauer",
   "OUTBREAK.AttributeWill": "Willenskraft",
 
   "OUTBREAK.SurvivalPoints": "Überlebenspunkte",
   "OUTBREAK.GestaltLevel": "Gestaltebene",
   "OUTBREAK.ConsumptionPoints": "Verbrauchsstellen",
 
-  "OUTBREAK.Skills": "Fähigkeiten",
+  "OUTBREAK.Skills": {
+    "Basic": "Basic",
+    "Trained": "Ausgebildet",
+    "Expert": "Experte"
+  },
+
+  "OUTBREAK.SKills.Basic": {
+    "Brawling": "Brawling"
+  },
+  "OUTBREAK.Description": "Beschreibung",
   "OUTBREAK.HealthPoints": "Gesundheit"
 
 }

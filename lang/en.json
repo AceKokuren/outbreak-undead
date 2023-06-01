@@ -1,13 +1,27 @@
 {
   "OUTBREAK.AttributeStr": "Strength",
   "OUTBREAK.AttributePer": "Perception",
-  "OUTBREAK.AttributeEnd": "Endurance",
+  "OUTBREAK.AttributeEmp": "Empathy",
   "OUTBREAK.AttributeWill": "Willpower",
 
   "OUTBREAK.SurvivalPoints": "Survival Points",
   "OUTBREAK.GestaltLevel": "Gestalt Level",
   "OUTBREAK.ConsumptionPoints": "Consumption Points",
 
-  "OUTBREAK.Skills": "Skills",
+  "OUTBREAK.Skills.Label": "Skills",
+  "OUTBREAK.Skills": {
+    "Basic": {
+      "Label": "Basic",
+      "Brawling": "Brawling"
+    },
+    "Trained": {
+      "Label": "Trained"
+    },
+    "Expert": {
+      "Label": "Expert"
+    }
+  },
+
+  "OUTBREAK.Description": "Description",
   "OUTBREAK.HealthPoints": "Health Points"
 }

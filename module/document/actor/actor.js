@@ -34,12 +34,5 @@ export class OutbreakActor extends Actor {
     }
 
     _getCharacterRollData(data) {
-        if (this.type !== 'character') return;
-
-        if (data.attributes) {
-            for (let [k, v] of Object.entries(data.attributes)) {
-                data[k] = foundry.utils.deepClone(v);
-            }
-        }
     }
 }

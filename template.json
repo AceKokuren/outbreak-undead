@@ -6,26 +6,27 @@
     "templates": {
       "resources": {
         "hp": {
-          "value": "5",
-          "max": "5"
-        },
-        "sp": {
-          "value": 0,
-          "max": 100
+          "value": 5,
+          "max": 5
         },
         "gl": {
           "value": 0,
-          "max": 100
+          "max": 99
         },
         "cp": {
           "value": 0,
-          "max": 100
+          "max": 99
+        },
+        "sp": {
+          "value": 0,
+          "max": 99
         }
       }
     },
     "character": {
       "templates": [
-        "resources"
+        "resources",
+        "skills"
       ],
       "attributes": {
         "str": {
@@ -34,11 +35,18 @@
         "per": {
           "value": 30
         },
-        "end": {
+        "emp": {
           "value": 30
         },
         "will": {
           "value": 30
+        }
+      },
+      "skills": {
+        "basic": {
+          "brawling": {
+            "value": 0
+          }
         }
       }
     }
