@@ -1,0 +1,11 @@
+<section class="skills-list">
+    <nav class="nested-sheet-tabs tabs" data-group="secondary">
+        <a class="item" data-tab="basic">{{localize 'OUTBREAK.Skills.Basic.Label'}}</a>
+        <a class="item" data-tab="trained">{{localize 'OUTBREAK.Skills.Trained.Label'}}</a>
+        <a class="item" data-tab="expert">{{localize 'OUTBREAK.Skills.Expert.Label'}}</a>
+    </nav>
+
+    <section class="skills-list tab" data-tab="basic" data-group="secondary">
+        {{> "systems/outbreak-undead/templates/actor/parts/skills/basic.html"}}
+    </section>
+</section>
