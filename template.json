@@ -6,27 +6,22 @@
     "templates": {
       "resources": {
         "hp": {
-          "value": "5",
-          "max": "5"
-        },
-        "sp": {
-          "value": 0,
-          "max": 100
+          "value": 5,
+          "max": 5
         },
         "gl": {
           "value": 0,
-          "max": 100
+          "max": 99
         },
         "cp": {
           "value": 0,
-          "max": 100
+          "max": 99
+        },
+        "sp": {
+          "value": 0,
+          "max": 99
         }
-      }
-    },
-    "character": {
-      "templates": [
-        "resources"
-      ],
+      },
       "attributes": {
         "str": {
           "value": 30
@@ -34,11 +29,151 @@
         "per": {
           "value": 30
         },
-        "end": {
+        "emp": {
           "value": 30
         },
         "will": {
           "value": 30
+        }
+      }
+    },
+    "character": {
+      "templates": [
+        "resources",
+        "attributes"
+      ],
+      "skills": {
+        "basic": {
+          "bal": {
+            "value": 0
+          },
+          "brl": {
+            "value": 0
+          },
+          "clim": {
+            "value": 0
+          },
+          "cmps": {
+            "value": 0
+          },
+          "do": {
+            "value": 0
+          },
+          "end": {
+            "value": 0
+          },
+          "exp": {
+            "value": 0
+          },
+          "grpl": {
+            "value": 0
+          },
+          "hld": {
+            "value": 0
+          },
+          "jl": {
+            "value": 0
+          },
+          "lp": {
+            "value": 0
+          },
+          "rpai": {
+            "value": 0
+          },
+          "srch": {
+            "value": 0
+          },
+          "spotli": {
+            "value": 0
+          },
+          "stlth": {
+            "value": 0
+          }
+        },
+        "trained": {
+          "bow": {
+            "value": 0
+          },
+          "calm": {
+            "value": 0
+          },
+          "dipl": {
+            "bb": {
+              "value": 0
+            },
+            "cd": {
+              "value": 0
+            },
+            "dm": {
+              "value": 0
+            },
+            "int": {
+              "value": 0
+            },
+            "per": {
+              "value": 0
+            }
+          },
+          "dgtlsys": {
+            "value": 0
+          },
+          "firm": {
+            "long": {
+              "value": 0
+            },
+            "pist": {
+              "value": 0
+            }
+          },
+          "faid": {
+            "value": 0
+          },
+          "ma": {
+            "bl": {
+              "value": 0
+            },
+            "pi": {
+              "value": 0
+            },
+            "sl": {
+              "value": 0
+            }
+          },
+          "nav": {
+            "value": 0
+          },
+          "swim": {
+            "value": 0
+          },
+          "throw": {
+            "value": 0
+          }
+        },
+        "expert": {
+          "amed": {
+            "value": 0
+          },
+          "cce": {
+            "value": 0
+          },
+          "mtla": {
+            "value": 0
+          },
+          "pil": {
+            "value": 0
+          },
+          "ride": {
+            "value": 0
+          },
+          "sci": {
+            "value": 0
+          },
+          "srvl": {
+            "value": 0
+          },
+          "tgh": {
+            "value": 0
+          }
         }
       }
     }
