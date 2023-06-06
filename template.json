@@ -28,66 +28,111 @@
         "resources",
         "skills"
       ],
-      "attributes": {
-        "str": {
-          "value": 30
-        },
-        "per": {
-          "value": 30
-        },
-        "emp": {
-          "value": 30
-        },
-        "will": {
-          "value": 30
-        }
-      },
       "skills": {
         "basic": {
-          "balance": {
+          "bal": {
             "value": 0
           },
-          "brawl": {
+          "brl": {
             "value": 0
           },
-          "climb": {
+          "clim": {
             "value": 0
           },
-          "composure": {
+          "cmps": {
             "value": 0
           },
-          "dodge": {
+          "do": {
             "value": 0
           },
-          "endurance": {
+          "end": {
             "value": 0
           },
-          "expression": {
+          "exp": {
             "value": 0
           },
-          "grapple": {
+          "grpl": {
             "value": 0
           },
-          "hold": {
+          "hld": {
             "value": 0
           },
-          "jump": {
+          "jl": {
             "value": 0
           },
-          "lift": {
+          "lp": {
             "value": 0
           },
-          "resist": {
+          "rpai": {
             "value": 0
           },
-          "search": {
+          "srch": {
             "value": 0
           },
-          "spot": {
+          "spotli": {
             "value": 0
           },
-          "stealth": {
+          "stlth": {
             "value": 0
+          }
+        },
+        "trained": {
+          "bow": {
+
+          },
+          "calm": {
+
+          },
+          "dipl": {
+            "bb": {
+
+            },
+            "cd": {
+
+            },
+            "dm": {
+
+            },
+            "int": {
+
+            },
+            "per": {
+
+            }
+          },
+          "dgtlsys": {
+
+          },
+          "firm": {
+            "long": {
+
+            },
+            "pist": {
+
+            }
+          },
+          "faid": {
+
+          },
+          "ma": {
+            "bl": {
+
+            },
+            "pi": {
+
+            },
+            "sl": {
+
+            }
+          },
+          "nav": {
+
+          },
+          "swim": {
+
+          },
+          "throw": {
+
           }
         }
       }
