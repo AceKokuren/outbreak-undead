@@ -4,43 +4,44 @@
       "character"
     ],
     "templates": {
-      "resources": {
-        "hp": {
-          "value": 5,
-          "max": 5
+      "common": {
+        "resources": {
+          "hp": {
+            "value": 5,
+            "max": 5
+          },
+          "gl": {
+            "value": 0,
+            "max": 99
+          },
+          "cp": {
+            "value": 0,
+            "max": 99
+          },
+          "sp": {
+            "value": 0,
+            "max": 99
+          }
         },
-        "gl": {
-          "value": 0,
-          "max": 99
-        },
-        "cp": {
-          "value": 0,
-          "max": 99
-        },
-        "sp": {
-          "value": 0,
-          "max": 99
-        }
-      },
-      "attributes": {
-        "str": {
-          "value": 30
-        },
-        "per": {
-          "value": 30
-        },
-        "emp": {
-          "value": 30
-        },
-        "will": {
-          "value": 30
+        "attributes": {
+          "str": {
+            "value": 30
+          },
+          "per": {
+            "value": 30
+          },
+          "emp": {
+            "value": 30
+          },
+          "will": {
+            "value": 30
+          }
         }
       }
     },
     "character": {
       "templates": [
-        "resources",
-        "attributes"
+        "common"
       ],
       "skills": {
         "basic": {
