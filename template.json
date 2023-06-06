@@ -92,61 +92,87 @@
         },
         "trained": {
           "bow": {
-
+            "value": 0
           },
           "calm": {
-
+            "value": 0
           },
           "dipl": {
             "bb": {
-
+              "value": 0
             },
             "cd": {
-
+              "value": 0
             },
             "dm": {
-
+              "value": 0
             },
             "int": {
-
+              "value": 0
             },
             "per": {
-
+              "value": 0
             }
           },
           "dgtlsys": {
-
+            "value": 0
           },
           "firm": {
             "long": {
-
+              "value": 0
             },
             "pist": {
-
+              "value": 0
             }
           },
           "faid": {
-
+            "value": 0
           },
           "ma": {
             "bl": {
-
+              "value": 0
             },
             "pi": {
-
+              "value": 0
             },
             "sl": {
-
+              "value": 0
             }
           },
           "nav": {
-
+            "value": 0
           },
           "swim": {
-
+            "value": 0
           },
           "throw": {
-
+            "value": 0
+          }
+        },
+        "expert": {
+          "amed": {
+            "value": 0
+          },
+          "cce": {
+            "value": 0
+          },
+          "mtla": {
+            "value": 0
+          },
+          "pil": {
+            "value": 0
+          },
+          "ride": {
+            "value": 0
+          },
+          "sci": {
+            "value": 0
+          },
+          "srvl": {
+            "value": 0
+          },
+          "tgh": {
+            "value": 0
           }
         }
       }
