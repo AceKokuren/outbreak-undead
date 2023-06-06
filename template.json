@@ -21,12 +21,26 @@
           "value": 0,
           "max": 99
         }
+      },
+      "attributes": {
+        "str": {
+          "value": 30
+        },
+        "per": {
+          "value": 30
+        },
+        "emp": {
+          "value": 30
+        },
+        "will": {
+          "value": 30
+        }
       }
     },
     "character": {
       "templates": [
         "resources",
-        "skills"
+        "attributes"
       ],
       "skills": {
         "basic": {
