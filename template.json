@@ -44,7 +44,49 @@
       },
       "skills": {
         "basic": {
-          "brawling": {
+          "balance": {
+            "value": 0
+          },
+          "brawl": {
+            "value": 0
+          },
+          "climb": {
+            "value": 0
+          },
+          "composure": {
+            "value": 0
+          },
+          "dodge": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          },
+          "expression": {
+            "value": 0
+          },
+          "grapple": {
+            "value": 0
+          },
+          "hold": {
+            "value": 0
+          },
+          "jump": {
+            "value": 0
+          },
+          "lift": {
+            "value": 0
+          },
+          "resist": {
+            "value": 0
+          },
+          "search": {
+            "value": 0
+          },
+          "spot": {
+            "value": 0
+          },
+          "stealth": {
             "value": 0
           }
         }
