@@ -25,6 +25,10 @@ export class OutbreakActor extends Actor {
     _prepareCharacterData(actorData) {
         if (actorData.type !== 'character') return;
         const systemData = actorData.system;
+
+        for (let [key, attribute] of Object.entries(systemData.attributes)) {
+            attribute.bonus = Math.floor(attribute.value / 10);
+        }
     }
 
     getRollData() {

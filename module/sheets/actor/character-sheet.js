@@ -58,7 +58,19 @@ export class OutbreakActorSheet extends ActorSheet {
             v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.basic[k]) ?? k;
         }
 
+        for (let [k, v] of Object.entries(context.system.skills.trained)) {
+            if (k === "dipl") {
+                for(let [x, y] of Object.entries(v)) {
+                    console.warn(`${x}: ${y}`);
+                }
+                continue;
+            }
+            v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.trained[k]) ?? k;
+        }
 
+        for (let [k, v] of Object.entries(context.system.skills.expert)) {
+            v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.expert[k]) ?? k;
+        }
     }
 
     /** @override */
