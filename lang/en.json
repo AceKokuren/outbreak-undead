@@ -33,25 +33,19 @@
       "Label": "Trained",
       "Bow": "Bow",
       "Calm": "Calm",
-      "Dipl": {
-        "Dipl": "Diplomacy",
-        "BB": "Barter",
-        "Cd": "Command",
-        "DM": "Det. Motives",
-        "Int": "Intimidate",
-        "Per": "Persuasion"
-      },
+      "Dipl": "Diplomacy",
+      "BB": "Barter",
+      "Cd": "Command",
+      "DM": "Det. Motives",
+      "Int": "Intimidate",
+      "Per": "Persuasion",
       "DgtlSys": "Digi. Systems",
-      "Firm": {
-        "Long": "Long G.",
-        "Pistol": "Pistol"
-      },
+      "Long": "Long G.",
+      "Pistol": "Pistol",
       "FAid": "First Aid",
-      "MA": {
-        "Bl": "MA.Bl",
-        "Pi": "MA.Pi",
-        "Sl": "MA.Sl"
-      },
+      "Bl": "M. Attack [Bl]",
+      "Pi": "M. Attack [Pi]",
+      "Sl": "M. Attack [Sl]",
       "Nav": "Nav",
       "Swim": "Swim",
       "Throw": "Throw"
