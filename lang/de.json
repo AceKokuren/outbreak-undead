@@ -1,23 +1,64 @@
 {
+  "OUTBREAK.HP": "Gesundheit",
+  "OUTBREAK.SurvivalPoints": "Überlebenspunkte",
+  "OUTBREAK.GestaltLevel": "Gestaltebene",
+  "OUTBREAK.ConsumptionPoints": "Verbrauchsstellen",
+
   "OUTBREAK.AttributeStr": "Stärke",
   "OUTBREAK.AttributePer": "Wahrnehmung",
   "OUTBREAK.AttributeEmp": "Ausdauer",
   "OUTBREAK.AttributeWill": "Willenskraft",
 
-  "OUTBREAK.SurvivalPoints": "Überlebenspunkte",
-  "OUTBREAK.GestaltLevel": "Gestaltebene",
-  "OUTBREAK.ConsumptionPoints": "Verbrauchsstellen",
-
   "OUTBREAK.Skills": {
-    "Basic": "Basic",
-    "Trained": "Ausgebildet",
-    "Expert": "Experte"
+    "Label": "Skills",
+    "Basic": {
+      "Label": "Basic",
+      "Bal": "Balance",
+      "Brl": "Brawling",
+      "Clim": "Climb",
+      "Cmps": "Composure",
+      "Do": "Dodge",
+      "End": "Endurance",
+      "Exp": "Expression",
+      "Grpl": "Grapple",
+      "Hld": "Hold",
+      "JL": "Jump/Leap",
+      "LP": "Lift/Pull",
+      "RPai": "Resist Pain",
+      "Srch": "Search",
+      "SpotLi": "Spot/Listen",
+      "Stlth": "Stealth"
+    },
+    "Trained": {
+      "Label": "Ausgebildet",
+      "Bow": "Bow",
+      "Calm": "Calm",
+      "Dipl": {
+        "BB": "Barter",
+        "Cd": "Command",
+        "DM": "Det. Motives",
+        "Int": "Intimidate",
+        "Per": "Persuasion"
+      },
+      "DgtlSys": "Digi. Systems",
+      "Firm": {
+        "Long": "Long G.",
+        "Pistol": "Pistol"
+      },
+      "FAid": "First Aid",
+      "MA": {
+        "Bl": "MA.Bl",
+        "Pi": "MA.Pi",
+        "Sl": "MA.Sl"
+      },
+      "Nav": "Nav",
+      "Swim": "Swim",
+      "Throw": "Throw"
+    },
+    "Expert": {
+      "Label": "Experte"
+    }
   },
 
-  "OUTBREAK.SKills.Basic": {
-    "Brawling": "Brawling"
-  },
-  "OUTBREAK.Description": "Beschreibung",
-  "OUTBREAK.HealthPoints": "Gesundheit"
-
+  "OUTBREAK.Description": "Beschreibung"
 }

@@ -16,13 +16,13 @@
                     </div>
                     <div id="attribute-name" class="attribute flexrow">
                         <label for="system.attributes.{{key}}.value"
-                               class="resource-label rollable flexlarge align-left" data-roll="d20"
+                               class="resource-label flexlarge align-left" data-roll="d20"
                                data-label="{{attribute.label}}">{{attribute.label}}</label>
-                        {{log this}}
                     </div>
                     <div id="attribute-value" class="attribute flexrow">
                         <input type="text" name="system.attributes.{{key}}.value" value="{{attribute.value}}"
                                data-dtype="Number"/>
+                        <p class="attribute" id="attribute-bonus">{{attribute.bonus}}</p>
                     </div>
                 </div>
                 {{/each}}
@@ -30,17 +30,17 @@
 
             <div class="resources flex-group-center">
                 <div class="sp flexcol">
-                    <label for="system.sp.value" class="resource-label">{{localize 'OUTBREAK.SurvivalPoints'}}</label>
-                    <input type="text" name="system.sp.value" value="{{system.sp.value}}" data-dtype="Number"/>
+                    <label for="system.resources.sp.value" class="resource-label">{{localize 'OUTBREAK.SurvivalPoints'}}</label>
+                    <input type="text" name="system.sp.value" value="{{system.resources.sp.value}}" data-dtype="Number"/>
                 </div>
                 <div class="gl flexcol">
-                    <label for="system.gl.value" class="resource-label">{{localize 'OUTBREAK.GestaltLevel'}}</label>
-                    <input type="text" name="system.gl.value" value="{{system.gl.value}}" data-dtype="Number"/>
+                    <label for="system.resources.gl.value" class="resource-label">{{localize 'OUTBREAK.GestaltLevel'}}</label>
+                    <input type="text" name="system.gl.value" value="{{system.resources.gl.value}}" data-dtype="Number"/>
                 </div>
                 <div class="cp flexcol">
-                    <label for="system.cp.value" class="resource-label">{{localize
+                    <label for="system.resources.cp.value" class="resource-label">{{localize
                         'OUTBREAK.ConsumptionPoints'}}</label>
-                    <input type="text" name="system.cp.value" value="{{system.cp.value}}" data-dtype="Number"/>
+                    <input type="text" name="system.cp.value" value="{{system.resources.cp.value}}" data-dtype="Number"/>
                 </div>
             </div>
         </section>

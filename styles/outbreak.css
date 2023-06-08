@@ -38,9 +38,24 @@
 
 .outbreak #attribute-value {
     max-width: 50px;
+    margin: auto auto 1em;
+}
+
+.outbreak #attribute-bonus {
     margin: auto;
 }
 
 .outbreak .resource-label {
     font-weight: bold;
 }
+
+.outbreak .nested-sheet-tabs {
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #b5b3a4;
+}
+
+.skill > .flexcol {
+    display: flex;
+}
+

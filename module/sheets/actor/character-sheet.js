@@ -40,7 +40,7 @@ export class OutbreakActorSheet extends ActorSheet {
         context.flags = actorData.flags;
 
         // Prepare character data and items.
-        if (actorData.type == 'character') {
+        if (actorData.type === 'character') {
             this._prepareCharacterData(context);
         }
 
@@ -50,15 +50,26 @@ export class OutbreakActorSheet extends ActorSheet {
     }
 
     _prepareCharacterData(context) {
-        for (let [k, v] of Object.entries(context.system.attributes)) {
+        const attr = context.system.attributes;
+
+        for (let [k, v] of Object.entries(attr)) {
             v.label = game.i18n.localize(CONFIG.OUTBREAK.attributes[k]) ?? k;
         }
 
         for (let [k, v] of Object.entries(context.system.skills.basic)) {
             v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.basic[k]) ?? k;
+            v.value = ((attr[v.base].value) + (attr[v.attrBn]?.bonus ?? 0));
         }
 
+        for (let [k, v] of Object.entries(context.system.skills.trained)) {
+            v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.trained[k]) ?? k;
+            v.value = ((attr[v.base].value) + (attr[v.attrBn]?.bonus ?? 0));
+        }
 
+        for (let [k, v] of Object.entries(context.system.skills.expert)) {
+            v.label = game.i18n.localize(CONFIG.OUTBREAK.skills.expert[k]) ?? k;
+            v.value = ((attr[v.base].value) + (attr[v.attrBn]?.bonus ?? 0));
+        }
     }
 
     /** @override */

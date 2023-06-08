@@ -4,175 +4,259 @@
       "character"
     ],
     "templates": {
-      "resources": {
-        "hp": {
-          "value": 5,
-          "max": 5
+      "common": {
+        "resources": {
+          "hp": {
+            "value": 5,
+            "max": 5
+          },
+          "gl": {
+            "value": 0,
+            "max": 99
+          },
+          "cp": {
+            "value": 0,
+            "max": 99
+          },
+          "sp": {
+            "value": 0,
+            "max": 99
+          }
         },
-        "gl": {
-          "value": 0,
-          "max": 99
-        },
-        "cp": {
-          "value": 0,
-          "max": 99
-        },
-        "sp": {
-          "value": 0,
-          "max": 99
-        }
-      },
-      "attributes": {
-        "str": {
-          "value": 30
-        },
-        "per": {
-          "value": 30
-        },
-        "emp": {
-          "value": 30
-        },
-        "will": {
-          "value": 30
+        "attributes": {
+          "str": {
+            "value": 30,
+            "bonus": 3
+          },
+          "per": {
+            "value": 30,
+            "bonus": 3
+          },
+          "emp": {
+            "value": 30,
+            "bonus": 3
+          },
+          "will": {
+            "value": 30,
+            "bonus": 3
+          }
         }
       }
     },
     "character": {
       "templates": [
-        "resources",
-        "attributes"
+        "common"
       ],
       "skills": {
         "basic": {
           "bal": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "brl": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "per"
           },
           "clim": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "cmps": {
-            "value": 0
+            "value": 0,
+            "base": "will",
+            "attrBn": "emp"
           },
           "do": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "str"
           },
           "end": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "exp": {
-            "value": 0
+            "value": 0,
+            "base": "emp",
+            "attrBn": "per"
           },
           "grpl": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "hld": {
-            "value": 0
+            "value": 0,
+            "base": "will",
+            "attrBn": "per"
           },
           "jl": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "per"
           },
           "lp": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "rpai": {
-            "value": 0
+            "value": 0,
+            "base": "will",
+            "attrBn": "str"
           },
           "srch": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "spotli": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "stlth": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           }
         },
         "trained": {
           "bow": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "str"
           },
           "calm": {
-            "value": 0
+            "value": 0,
+            "base": "emp",
+            "attrBn": "will"
           },
           "dipl": {
-            "bb": {
-              "value": 0
-            },
-            "cd": {
-              "value": 0
-            },
-            "dm": {
-              "value": 0
-            },
-            "int": {
-              "value": 0
-            },
-            "per": {
-              "value": 0
-            }
+            "value": 0,
+            "base": "emp",
+            "attrBn": null
+          },
+          "bb": {
+            "value": 0,
+            "base": "emp",
+            "attrBn": "will"
+          },
+          "cd": {
+            "value": 0,
+            "base": "emp",
+            "attrBn": "per"
+          },
+          "dm": {
+            "value": 0,
+            "base": "emp",
+            "attrBn": "per"
+          },
+          "int": {
+            "value": 0,
+            "base": "emp",
+            "attrBn": "str"
+          },
+          "per": {
+            "value": 0,
+            "base": "emp",
+            "attrBn": "per"
           },
           "dgtlsys": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
-          "firm": {
-            "long": {
-              "value": 0
-            },
-            "pist": {
-              "value": 0
-            }
+          "long": {
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
+          },
+          "pist": {
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "faid": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
-          "ma": {
-            "bl": {
-              "value": 0
-            },
-            "pi": {
-              "value": 0
-            },
-            "sl": {
-              "value": 0
-            }
+          "ma-bl": {
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
+          },
+          "ma-pi": {
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
+          },
+          "ma-sl": {
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "nav": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "swim": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           },
           "throw": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "str"
           }
         },
         "expert": {
           "amed": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "cce": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "mtla": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "per"
           },
           "pil": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "ride": {
-            "value": 0
+            "value": 0,
+            "base": "emp",
+            "attrBn": "will"
           },
           "sci": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "srvl": {
-            "value": 0
+            "value": 0,
+            "base": "per",
+            "attrBn": "will"
           },
           "tgh": {
-            "value": 0
+            "value": 0,
+            "base": "str",
+            "attrBn": "will"
           }
         }
       }
